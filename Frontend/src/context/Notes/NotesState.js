@@ -3,7 +3,7 @@ import React, { useState,useEffect } from 'react'
 import { useNavigate } from "react-router-dom";
 function NotesState(props) {
   const navigate = useNavigate()
-  const localhost = "http://localhost:5000/"
+  const localhost = "https://cloud-notebook-be.onrender.com"
   const [notes,setNotes] = useState([]) 
   const [toggle,setToggle] = useState(false)
   const [noteUpdateCounter, setNoteUpdateCounter] = useState(0)
