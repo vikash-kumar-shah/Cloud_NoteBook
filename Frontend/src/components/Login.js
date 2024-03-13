@@ -6,7 +6,7 @@ function Login() {
     const context = useContext(Notescontext)
     const {setToggle,setNotificationAlert} = context
     const [credentials,setCredentials] = useState({email:"",password:""})
-    const localhost = "https://cloud-notebook-be.onrender.com"
+    const localhost = "https://cloud-notebook-be.onrender.com/"
     let navigate = useNavigate()
     const handleclick =async (e) =>{
         e.preventDefault()
