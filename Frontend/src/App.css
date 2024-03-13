@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  /* background-image:linear-gradient(to right top, #ff6f91, #ff7c81, #ff8b72, #ff9c67, #ffae61, #ffba60, #ffc660, #ffd361, #fedc64, #fde567, #fbef6c, #f9f871); */
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+#float{
+  transition: all 0.2s linear;
+}
+#float:hover{
+  scale: 1.025;
+}

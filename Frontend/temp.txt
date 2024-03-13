@@ -1,0 +1,2 @@
+http://localhost:5000/api/notes/deletenote/65eeaf5d28c9f3f45c84c532
+http://localhost:5000/api/notes/deletenote/65ec03aad4510b01afe89937
