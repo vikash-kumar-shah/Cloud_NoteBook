@@ -9,7 +9,7 @@ const fetchUser = require("../Middleware/fetchuser")
 //npm package for validating user data
 const { body , validationResult } = require('express-validator');
 
-router.post('/test',async (res,req)=>{
+router.post('/test',async (req,res)=>{
     try{
         res.status(200).json({msg:"Your /auth/test route file is working correctly"})
     }
